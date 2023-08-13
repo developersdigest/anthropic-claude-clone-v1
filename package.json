@@ -1,0 +1,39 @@
+{
+  "name": "next-langchain",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nytimes/react-prosemirror": "^0.2.3",
+    "@phosphor-icons/react": "^2.0.10",
+    "@pinecone-database/pinecone": "^0.1.6",
+    "@supabase/supabase-js": "^2.32.0",
+    "ai": "2.1.32",
+    "busboy": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "formidable": "^3.5.0",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.123",
+    "multer": "1.4.5-lts.1",
+    "next": "13.4.4-canary.11",
+    "react": "18.2.0",
+    "react-dom": "^18.2.0",
+    "stream": "^0.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.12",
+    "@types/react": "18.2.8",
+    "@types/react-dom": "18.2.4",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^7.32.0",
+    "eslint-config-next": "13.4.4-canary.11",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.1.3"
+  }
+}
