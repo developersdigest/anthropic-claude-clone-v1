@@ -240,7 +240,7 @@ export default function App() {
                     {/* 29. User message display */}
                     <div className="flex justify-end">
                       <div className="flex items-end col-start-3 pb-1 mx-2 opacity-100 transform-none">
-                        <div className="rounded-xl px-3 py-2 break-words text-stone-900 transition-all  bg-uivory-300 place-self-end ">
+                        <div className="rounded-xl px-3 py-2 break-words text-stone-900 transition-all bg-white place-self-end ">
                           <div className="contents">
                             <p className="whitespace-pre-wrap">{m.content}</p>
                           </div>
@@ -248,7 +248,7 @@ export default function App() {
                       </div>
                       <div className="flex items-end col-start-3 pb-1 mx-2 opacity-100 transform-none">
                         {/* 30. User avatar */}
-                        <div className="font-bold rounded-full flex items-center justify-center h-8 w-8 text-[14px] bg-ant-primary text-white">
+                        <div className="font-bold rounded-full flex items-center justify-center h-8 w-8 text-[14px] bg-ant-primary text-white bg-purple-800">
                           <User size={18} />
                         </div>
                       </div>
@@ -418,7 +418,7 @@ export default function App() {
                 >
                   <button className="absolute inset-0 cursor-pointer hover:bg-black/5 w-40"></button>
                   {/* 42. Display file type badge */}
-                  <div className="flex-shrink-0 w-12 h-12 bg-ant-primary rounded-tl-md rounded-bl-md grid place-items-center text-white font-medium uppercase truncate">
+                  <div className="flex-shrink-0 w-12 h-12 bg-purple-800 rounded-tl-md rounded-bl-md grid place-items-center text-white font-medium uppercase truncate">
                     {file.title.split(".")[1].toUpperCase()}
                   </div>
                   <div className="py-2 px-3 min-w-0">
